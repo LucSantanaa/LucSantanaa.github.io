@@ -1,49 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GangMembers</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; }
-    header { background: #0077ff; color: white; padding: 1.5rem; text-align: center; }
-    nav { background: #f4f4f4; padding: 1rem; text-align: center; }
-    nav a { margin: 0 10px; text-decoration: none; color: #0077ff; font-weight: bold; }
-    section { padding: 2rem; max-width: 900px; margin: auto; }
-    footer { background: #333; color: white; text-align: center; padding: 1rem; }
-    button { padding: 10px 20px; border: none; background: #0077ff; color: white; border-radius: 5px; cursor: pointer; }
-    button:hover { background: #005ecc; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><!DOCTYPE html></title>
+
+    <style>
+        body {
+            font-family: "Helvetica", "Arial", sans-serif;
+            padding: 20px;
+        }
+
+        img {
+            width: 400px; 
+            height: auto;
+            display: block;
+           
+        }
+
+        @media (max-width: 600px) {
+
+            img {
+                width: 100%; 
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Bem-vindo ao Hell💎</h1>
-    <p>Diamond Cremas</p>
-  </header>
-  <nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#contato">Contato</a>
-  </nav>
-  <section id="sobre">
-    <h2>Sobre</h2>
-    <p>Este site foi criado sem fins lucrativos</p>
-  </section>
-  <section id="servicos">
-    <h2>Serviços</h2>
-    <ul>
-      <li>✔ Chega rápidos</li>
-      <li>✔ Design moderno</li>
-      <li>✔ Promoção</li>
-    </ul>
-  </section>
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Entre em contato pelo botão abaixo:</p>
-    <button onclick="window.location.href='mailto:seuemail@exemplo.com'">Enviar E-mail</button>
-  </section>
-  <footer>
-    <p>© 2025 - Diamond Cremas. Todos os direitos reservados.</p>
-  </footer>
+    <h1>&lt;!DOCTYPE html&gt;&lt;html lang="pt-BR"&gt;&lt;head&gt;  &lt;meta charset="UTF-8"&gt;  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;  &lt;title&gt;Diamond&lt;/title&gt;  &lt;style&gt;    body {      margin: 0;      font-family: 'Arial', sans-serif;      background: #000;      color: #fff;      display: flex;      flex-direction: column;      align-items: center;      justify-content: center;      height: 100vh;      text-align: center;    }    #diamond-container {      cursor: pointer;    }    #diamond-name {      font-family: 'Arial Black', sans-serif;      font-size: 5rem;      font-weight: bold;      letter-spacing: 5px;      margin: 0;      transition: color 0.3s ease;    }    #diamond-name:hover {      color: #ff0000;    }    #nav-links {      display: none;      margin-top: 2rem;      opacity: 0;      transform: translateY(20px);      transition: opacity 0.5s ease, transform 0.5s ease;    }    #nav-links.show {      display: block;      opacity: 1;      transform: translateY(0);    }    #nav-links a {      margin: 0 15px;      text-decoration: none;      color: #fff;      font-weight: bold;      font-size: 1.2rem;      transition: color 0.3s ease;    }    #nav-links a:hover {      color: #ff0000;    }    footer {      position: absolute;      bottom: 1rem;      color: #555;    }  &lt;/style&gt;&lt;/head&gt;&lt;body&gt;  &lt;div id="diamond-container" onclick="toggleNav()"&gt;    &lt;h1 id="diamond-name"&gt;DIAMOND&lt;/h1&gt;  &lt;/div&gt;  &lt;nav id="nav-links"&gt;    &lt;a href="#sobre"&gt;Sobre&lt;/a&gt;    &lt;a href="#servicos"&gt;Serviços&lt;/a&gt;    &lt;a href="#contato"&gt;Contato&lt;/a&gt;  &lt;/nav&gt;  &lt;footer&gt;    &lt;p&gt;© 2025 - DIAMOND. Todos os direitos reservados.&lt;/p&gt;  &lt;/footer&gt;  &lt;script&gt;    function toggleNav() {      const navLinks = document.getElementById('nav-links');      navLinks.classList.toggle('show');    }  &lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</h1>
 </body>
 </html>
